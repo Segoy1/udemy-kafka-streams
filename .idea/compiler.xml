@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="word-count" />
+        <module name="favorite-color" />
       </profile>
     </annotationProcessing>
   </component>
