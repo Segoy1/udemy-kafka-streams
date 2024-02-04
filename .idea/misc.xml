@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/word-count/pom.xml" />
         <option value="$PROJECT_DIR$/favorite-color/pom.xml" />
+        <option value="$PROJECT_DIR$/bank-balance/pom.xml" />
       </list>
     </option>
   </component>
