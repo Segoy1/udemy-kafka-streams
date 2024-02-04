@@ -18,6 +18,9 @@ public class BankTransactionKafkaProducer {
         config.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, IntegerSerializer.class);
         config.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, JsonSerializer.class);
 
+        config.put(ProducerConfig.ACKS_CONFIG,"all");
+        config.put(ProducerConfig.ENABLE_IDEMPOTENCE_CONFIG,"true");
+
 
         KafkaProducer<String, Transaction> producer = new KafkaProducer<>(config);
 
